@@ -15,11 +15,11 @@ public class TestIA {
 		PrintWriter pw = new PrintWriter(new File("ai_proof.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append("AI Name");
-        sb.append(',');
+        sb.append(';');
         sb.append("score");
-        sb.append(',');
+        sb.append(';');
         sb.append("AI Name2");
-        sb.append(',');
+        sb.append(';');
         sb.append("score2");
         sb.append('\n');
 
@@ -80,11 +80,11 @@ public class TestIA {
 		System.out.println("Beginner AI score : "+beginnerWins);
 		System.out.println("Intermediate AI score : "+intermediateWins);
 		sb.append("AI Level Beginner");
-        sb.append(',');
+        sb.append(';');
         sb.append(beginnerWins);
-        sb.append(',');
+        sb.append(';');
         sb.append("AI Level Medium");
-        sb.append(',');
+        sb.append(';');
         sb.append(intermediateWins);
         sb.append('\n');
 		
@@ -144,11 +144,11 @@ public class TestIA {
 		System.out.println("\nBeginner AI score : "+beginnerWins);
 		System.out.println("Expert AI score : "+expertWins);
 		sb.append("AI Level Beginner");
-        sb.append(',');
+        sb.append(';');
         sb.append(beginnerWins);
-        sb.append(',');
+        sb.append(';');
         sb.append("AI Level Expert");
-        sb.append(',');
+        sb.append(';');
         sb.append(expertWins);
         sb.append('\n');
 		
@@ -208,11 +208,11 @@ public class TestIA {
 		System.out.println("\nIntermediate AI score : "+intermediateWins);
 		System.out.println("Expert AI score : "+expertWins);
 		sb.append("AI Level Medium");
-        sb.append(',');
+        sb.append(';');
         sb.append(intermediateWins);
-        sb.append(',');
+        sb.append(';');
         sb.append("AI Level Expert");
-        sb.append(',');
+        sb.append(';');
         sb.append(expertWins);
         sb.append('\n');
 

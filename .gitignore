@@ -12,3 +12,6 @@
 
 # CSV file
 ai_proof.csv
+
+# Settings folder
+/.settings
